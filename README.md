@@ -30,7 +30,7 @@ The dataset consists of 70,000 grayscale images of handwritten digits (0-9), eac
 ## What does MNIST have to do with WEAP?
 
 Succeeding at WEAP doesn't just mean having the best build teams on campus, it means *making* the best build teams on campus.
-At WEAP it doesn't matter if you're 10x software engineer or have never coded before - if you have the drive to make a difference WEAP gives you the opportunities to learn and the tools to create and lets you take charge.
+At WEAP it doesn't matter if you're 10x software engineer or have never coded before - if you have the drive WEAP gives you the opportunities to learn and the tools to create and lets you make a difference.
 
 The MNIST classifier is the traditional entry-point to computer vision & ML. If you've never done anything with machine learning, or even if you've never done anything with software, it's a great place to start.
 
