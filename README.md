@@ -10,15 +10,15 @@
 
 ## What is MNIST?
 
-The MNIST dataset (Modified National Institute of Standards and Technology database) is a widely used benchmark dataset in machine learning, particularly for image processing and computer vision tasks. It consists of 70,000 grayscale images of handwritten digits (0-9), each of size 28x28 pixels.
+The MNIST dataset (Modified National Institute of Standards and Technology database) is a widely used benchmark dataset in machine learning, particularly for image processing and computer vision tasks. Think of it like computer vision's "Hello world!". 
+
+The dataset consists of 70,000 grayscale images of handwritten digits (0-9), each of size 28x28 pixels.
 
 - **Training and Testing:** It is divided into 60,000 training images and 10,000 testing images.
 
 - **Purpose:** The dataset is commonly used to train and evaluate classification algorithms, serving as a foundational task in deep learning and neural network research.
 
 - **Simplicity:** Its small size and pre-processed, normalized format make it ideal for testing models and concepts with low computational overhead.
-
-Despite being simple, MNIST has inspired more complex variants like Fashion-MNIST for modern use cases.
 
 <div align="center">
     <img src="README_assets/MNIST_Visualization.gif" alt="Neural Network of MNIST">
@@ -29,33 +29,37 @@ Despite being simple, MNIST has inspired more complex variants like Fashion-MNIS
 
 ## What does MNIST have to do with WEAP?
 
-MNIST and WE AutoPilot (WEAP) are connected through their focus on machine learning and AI, which are key aspects of WEAP’s software development goals, especially in areas like computer vision.
+Succeeding at WEAP doesn't just mean having the best build teams on campus, it means *making* the best build teams on campus.
+At WEAP it doesn't matter if you're 10x software engineer or have never coded before - if you have the drive to make a difference WEAP gives you the opportunities to learn and the tools to create and lets you take charge.
+
+The MNIST classifier is the traditional entry-point to computer vision & ML. If you've never done anything with machine learning, or even if you've never done anything with software, it's a great place to start.
 
 </br>
 
-**1. Understanding Neural Networks:**
+# What will you get out of it?
+**1. Understanding Neural Networks**
 
-- Working with MNIST introduces members to the basics of neural networks, including how models learn from data, optimize weights, and make predictions. By recognizing patterns like handwritten digits in MNIST, members can build a solid foundation for more advanced tasks such as object detection and lane recognition—critical components of autonomous vehicle systems.
+- At our workshop you'll learn what a neural network is, how it works, and some of the theory that's "under the hood." By the end of the workshop you should understand the basics of machine learning and have a theoretical foundation to understand how AI software is engineered.
+- You'll learn what "layers" are, what a "CNN" is, get to see "overfitting" in real time and more.
 
-**2. Hands-On with Machine Learning Frameworks:**
+**2. Hands-On with Machine Learning Frameworks**
 
-- Members gain experience using popular ML frameworks like TensorFlow or PyTorch while working on MNIST. This practical exposure is directly transferable to projects requiring real-world datasets, such as vehicle navigation or obstacle detection.
+- At our workshop you'll gain experience using industry and research standard machine learning frameworks. By the end you should feel like you know what they do and how they're used to create real, useful applications.
+- Have you ever wondered how models are saved and transfered between people, or how to pause and resume training?
 
-**3. Confidence Building:**
+**3. Experience with Software Development tools**
 
-- Solving MNIST problems helps new members grasp the logic behind AI and ML systems in a  simple, manageable way. This builds their confidence to dive into more challenging tasks like training models on real-world traffic or environmental data.
+- You'll get an intro into tools like Python, git, and GitHub that software engineers use every day.
 
-**4. Team Collaboration and Mentorship:**
+**4. A Machine Learning Project YOU made!**
 
-- Members can collaborate on MNIST-related challenges, fostering teamwork and enabling senior members to mentor newcomers on the principles of AI development.
-
-**5. Resume-Worthy Experience:**
-
-- Who doesn’t want a project showcasing machine learning skills on their resume? A completed MNIST project not only demonstrates technical ability but also signals a willingness to learn and tackle foundational AI problems, making members more attractive to employers in tech and AI industries.
+- By the end you'll have a project you can share on your GitHub, add to your portfolio, or even show to your parents. It'll be all yours. 
 
 </br>
 
 ## How to setup your environment
+
+Before coming in to the workshop please complete the following steps.
 
 ***Note: Windows and MacOS are very similar, thus only key differences are highlighted. If you need help with any part of this setup, be sure to join the Discord here:***
 
