@@ -381,8 +381,6 @@ FAQ (Frequently Asked Questions)
 
 #
 
-</br>
-
 <div id="toc">
     <ul style="list-style: none;">
         <summary>
@@ -395,6 +393,7 @@ FAQ (Frequently Asked Questions)
 
 Stay updated and connect with us through our socials:
 
+<br>
 <div align="center">
   <table>
     <tr>
