@@ -8,7 +8,7 @@
 
 </div>
 
----
+#
 
 </br>
 
@@ -33,8 +33,6 @@ The dataset consists of 70,000 grayscale images of handwritten digits (0-9), eac
 
 </br>
 </details>
-
-</br>
 
 <details>
 <summary>
@@ -61,8 +59,6 @@ The dataset consists of 70,000 grayscale images of handwritten digits (0-9), eac
 </br>
 
 </details>
-
-</br>
 
 <details>
 <summary>
@@ -339,8 +335,6 @@ Version control is a key skill for any developer. Git allows you to track change
 
 </details>
 
-</br>
-
 <details>
 <summary>
 <h2 style="display: inline; border-bottom: none;">
@@ -384,9 +378,9 @@ FAQ (Frequently Asked Questions)
 </details>
 
 </br>
-</br>
 
----
+#
+
 </br>
 
 <h2 style="display: inline; border-bottom: none;">
