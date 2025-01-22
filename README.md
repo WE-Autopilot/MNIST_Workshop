@@ -291,15 +291,22 @@ Version control is a key skill for any developer. Git allows you to track change
 
 1. **Install Git**:
    - On MacOS:
+     Use homebrew:
      ```bash
      brew install git
      ```
+
+    If you don't have homebrew installed run the following in your terminal:
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+   
    - On Linux:
      ```bash
      sudo apt-get install git
      ```
 
-2. **Verify the installation**:
+1. **Verify the installation**:
    ```bash
    git --version
    ```
