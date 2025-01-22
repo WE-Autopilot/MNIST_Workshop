@@ -383,11 +383,15 @@ FAQ (Frequently Asked Questions)
 
 </br>
 
-<h2 style="display: inline; border-bottom: none;">
-Connect with WEAP
-</h2>
-
-</br>
+<div id="toc">
+    <ul style="list-style: none;">
+        <summary>
+            <h2 style="display: inline; border-bottom: none;">
+                <b>Connect with WEAP</b>
+            </h2>
+        </summary>
+    </ul>
+</div>
 
 Stay updated and connect with us through our socials:
 
