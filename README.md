@@ -8,7 +8,13 @@
 
 </div>
 
-## What is MNIST?
+---
+
+</br>
+
+<details>
+<summary><h2 style="display: inline; border-bottom: none;">What is MNIST?</h2></summary>
+</br>
 
 The MNIST dataset (Modified National Institute of Standards and Technology database) is a widely used benchmark dataset in machine learning, particularly for image processing and computer vision tasks. Think of it like computer vision's "Hello world!". 
 
@@ -26,40 +32,52 @@ The dataset consists of 70,000 grayscale images of handwritten digits (0-9), eac
 </div>
 
 </br>
-
-## What does MNIST have to do with WEAP?
-
-Succeeding at WEAP doesn't just mean having the best build teams on campus, it means *making* the best build teams on campus.
-At WEAP it doesn't matter if you're 10x software engineer or have never coded before - if you have the drive WEAP gives you the opportunities to learn and the tools to create and lets you make a difference.
-
-The MNIST classifier is the traditional entry-point to computer vision & ML. If you've never done anything with machine learning, or even if you've never done anything with software, it's a great place to start.
+</details>
 
 </br>
 
-# What will you get out of it?
+<details>
+<summary>
+<h2 style="display: inline; border-bottom: none;">What will you get out of it?</h2>
+</summary>
+</br>
+
 **1. Understanding Neural Networks**
 
-- At our workshop you'll learn what a neural network is, how it works, and some of the theory that's "under the hood." By the end of the workshop you should understand the basics of machine learning and have a theoretical foundation to understand how AI software is engineered.
-- You'll learn what "layers" are, what a "CNN" is, get to see "overfitting" in real time and more.
+- Learning about neural networks at our workshop provides a hands-on introduction to the foundations of machine learning. You will explore the theory behind how neural networks function, including the role of layers, the concept of a CNN, and the challenges of overfitting. By the end, you will gain a theoretical understanding of AI software engineering and its practical applications in developing intelligent systems.
 
 **2. Hands-On with Machine Learning Frameworks**
 
-- At our workshop you'll gain experience using industry and research standard machine learning frameworks. By the end you should feel like you know what they do and how they're used to create real, useful applications.
-- Have you ever wondered how models are saved and transfered between people, or how to pause and resume training?
+- You will gain experience using popular ML frameworks like TensorFlow or PyTorch while working on MNIST. This practical exposure is directly transferable to projects requiring real-world datasets, such as vehicle navigation or obstacle detection.
 
-**3. Experience with Software Development tools**
+**3. Confidence Building:**
 
-- You'll get an intro into tools like Python, git, and GitHub that software engineers use every day.
+- Solving MNIST problems helps you grasp the logic behind AI and ML systems in a simple, manageable way. This builds you confidence to dive into more challenging tasks like training models on real-world traffic or environmental data.
 
 **4. A Machine Learning Project YOU made!**
 
-- By the end you'll have a project you can share on your GitHub, add to your portfolio, or even show to your parents. It'll be all yours. 
+- Who doesn’t want a project showcasing machine learning skills on their resume? A completed MNIST project not only demonstrates technical ability but also signals a willingness to learn and tackle foundational AI problems, making you more attractive to employers in tech and AI industries.
 
 </br>
 
-## How to setup your environment
+</details>
+
+</br>
+
+<details>
+<summary>
+<h2 style="display: inline; border-bottom: none;">
+How to setup your environment
+</h2>
+</summary>
+
+</br>
+
+<div align="center">
 
 Before coming in to the workshop please complete the following steps.
+
+</div>
 
 ***Note: Windows and MacOS are very similar, thus only key differences are highlighted. If you need help with any part of this setup, be sure to join the Discord here:***
 
@@ -199,7 +217,138 @@ Before coming in to the workshop please complete the following steps.
 
 </br>
 
-## FAQ (Frequently Asked Questions)
+### 7. Set Up a Python Virtual Environment (Highly Recommended)
+
+A virtual environment helps isolate your Python projects, ensuring that dependencies for one project don’t conflict with others. This is especially useful when working with machine learning libraries that may have version-specific requirements.
+
+#### Windows
+
+1. **Install `virtualenv`**:
+   ```ps
+   pip install virtualenv
+   ```
+
+2. **Create a virtual environment**:
+   Navigate to your project folder, then in the terminal or command prompt and run:
+   ```ps
+   virtualenv venv
+   ```
+
+3. **Activate the virtual environment**:
+   ```ps
+   .\venv\Scripts\activate
+   ```
+
+4. **Verify activation**:
+   You should see `(venv)` at the beginning of your terminal prompt, indicating the environment is active.
+
+#### MacOS/Linux
+
+1. **Install `virtualenv`**:
+   ```bash
+   pip3 install virtualenv
+   ```
+
+2. **Create a virtual environment**:
+   Navigate to your project folder in the terminal and run:
+   ```bash
+   virtualenv venv
+   ```
+
+3. **Activate the virtual environment**:
+   ```bash
+   source venv/bin/activate
+   ```
+
+4. **Verify activation**:
+   You should see `(venv)` at the beginning of your terminal prompt, indicating the environment is active.
+
+#### Why Virtual Environments?
+
+- **Dependency Management**: Keeps project dependencies isolated, avoiding version conflicts.
+- **Portability**: Makes it easier to share projects without worrying about global Python package versions.
+- **Clean Development Environment**: Prevents clutter in your global Python installation.
+
+> **Tip**: To deactivate the environment, type:
+> ```bash
+> deactivate
+> ```
+
+### 8. Install Git and Set Up a Repository (Recommended)
+
+Version control is a key skill for any developer. Git allows you to track changes, collaborate effectively, and revert to previous versions of your code when needed.
+
+#### Windows
+
+1. **Download and install Git**:
+   - Visit the [Git website](https://git-scm.com/) and download the installer.
+   - Run the installer and follow the default setup instructions.
+   - Ensure the option **"Add Git to PATH"** is selected during installation.
+
+2. **Verify the installation**:
+   Open a command prompt and type:
+   ```ps
+   git --version
+   ```
+
+#### MacOS/Linux
+
+1. **Install Git**:
+   - On MacOS:
+     ```bash
+     brew install git
+     ```
+   - On Linux:
+     ```bash
+     sudo apt-get install git
+     ```
+
+2. **Verify the installation**:
+   ```bash
+   git --version
+   ```
+
+#### Set Up a Repository
+
+1. **Initialize a Git repository**:
+   In your project folder, run:
+   ```bash
+   git init
+   ```
+
+2. **Add files to the repository**:
+   ```bash
+   git add .
+   ```
+
+3. **Commit your changes**:
+   ```bash
+   git commit -m "Initial commit"
+   ```
+
+4. **Link to a remote repository (e.g., GitHub)**:
+   - Create a new repository on GitHub.
+   - Copy the repository URL and run:
+     ```bash
+     git remote add origin <repository-url>
+     git branch -M main
+     git push -u origin main
+     ```
+
+> **Tip**: Git is essential for collaborating on projects and keeping a reliable history of your work. Your best bet to become skillful at Git is practice and some tutorial videos on YouTube.
+
+</details>
+
+</br>
+
+<details>
+<summary>
+<h2 style="display: inline; border-bottom: none;">
+FAQ (Frequently Asked Questions)
+</h2>
+</summary>
+
+</br>
 
 **Q: Where is the solution to creating the MNIST CNN (Convolutional Neural Network)?**
 
@@ -232,10 +381,19 @@ Before coming in to the workshop please complete the following steps.
 **Q: Who can I contact if I have questions after the workshop?**
 
     Join our Discord server or reach out to any of the WEAP organizers. Details will be provided during the workshop.
+</details>
 
 </br>
+</br>
 
-## Connect with WEAP
+---
+</br>
+
+<h2 style="display: inline; border-bottom: none;">
+Connect with WEAP
+</h2>
+
+</br>
 
 Stay updated and connect with us through our socials:
 
