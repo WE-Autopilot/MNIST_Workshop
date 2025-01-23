@@ -108,8 +108,6 @@ Before coming in to the workshop please complete the following steps.
 </div>
 </details>
 
-</br>
-
 <details>
 <summary>
 <h3 style="display: inline; border-bottom: none;">2. Download and Install Python 3.12.x</h3>
@@ -144,8 +142,6 @@ Before coming in to the workshop please complete the following steps.
    - You should see something like `Python 3.12.x`.
 </details>
 
-</br>
-
 <details>
 <summary>
 <h3 style="display: inline; border-bottom: none;">3. Install the Python Extension in VS Code</h3>
@@ -168,8 +164,6 @@ Before coming in to the workshop please complete the following steps.
 </div>
 </details>
 
-</br>
-
 <details>
 <summary>
 <h3 style="display: inline; border-bottom: none;">4. Set Up Python in VS Code</h3>
@@ -187,8 +181,6 @@ Before coming in to the workshop please complete the following steps.
     <p><em>Python Extension Page in VS Code.</em></p>
 </div>
 </details>
-
-</br>
 
 <details>
 <summary>
@@ -220,8 +212,6 @@ Before coming in to the workshop please complete the following steps.
    ```
 </details>
 
-</br>
-
 <details>
 <summary>
 <h3 style="display: inline; border-bottom: none;">6. Verify Your Setup</h3>
@@ -237,8 +227,6 @@ Before coming in to the workshop please complete the following steps.
 - You may feels as though this was simple, but we are just getting to the good part!
    - Attend the workshop session to write your first Convolutional Neural Network!
 </details>
-
-</br>
 
 <details>
 <summary>
@@ -300,8 +288,6 @@ A virtual environment helps isolate your Python projects, ensuring that dependen
 > deactivate
 > ```
 </details>
-
-</br>
 
 <details>
 <summary>
