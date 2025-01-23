@@ -38,6 +38,7 @@ The dataset consists of 70,000 grayscale images of handwritten digits (0-9), eac
 <summary>
 <h2 style="display: inline; border-bottom: none;">What will you get out of it?</h2>
 </summary>
+
 </br>
 
 **1. Understanding Neural Networks**
@@ -83,7 +84,12 @@ Before coming in to the workshop please complete the following steps.
 
 </br>
 
-### 1. Download and Install Visual Studio Code (VS Code)
+<details>
+<summary>
+<h3 style="display: inline; border-bottom: none;">1. Download and Install Visual Studio Code (VS Code)</h3>
+</summary>
+
+</br>
 
 - Open your web browser and go to the [VS Code Download Page](https://code.visualstudio.com/).
 
@@ -102,9 +108,16 @@ Before coming in to the workshop please complete the following steps.
     <img src="README_assets/image-1.png" alt="Download Page">
     <p><em>Once you load up the page, click "Download" in top right, and choose your OS</em></p>
 </div>
+</details>
+
 </br>
 
-### 2. Download and Install Python 3.12.x
+<details>
+<summary>
+<h3 style="display: inline; border-bottom: none;">2. Download and Install Python 3.12.x</h3>
+</summary>
+
+</br>
 
 - Go to the [Python Downloads Page](https://www.python.org/downloads/).
 
@@ -133,10 +146,16 @@ Before coming in to the workshop please complete the following steps.
      python3 --version
      ```
    - You should see something like `Python 3.12.x`.
+</details>
 
 </br>
 
-### 3. Install the Python Extension in VS Code
+<details>
+<summary>
+<h3 style="display: inline; border-bottom: none;">3. Install the Python Extension in VS Code</h3>
+</summary>
+
+</br>
 
 - Open VS Code.
 
@@ -153,10 +172,16 @@ Before coming in to the workshop please complete the following steps.
     <img src="README_assets/image.png" alt="Python Extension Page">
     <p><em>Python Extension Page in VS Code.</em></p>
 </div>
+</details>
 
 </br>
 
-### 4. Set Up Python in VS Code
+<details>
+<summary>
+<h3 style="display: inline; border-bottom: none;">4. Set Up Python in VS Code</h3>
+</summary>
+
+</br>
 
 - Open VS Code and press **Ctrl + Shift + P** (Windows/Linux) or **Cmd + Shift + P** (Mac) to open the Command Palette.
 
@@ -169,10 +194,16 @@ Before coming in to the workshop please complete the following steps.
     <img src="README_assets/image-2.png" alt="Python Extension Page">
     <p><em>Python Extension Page in VS Code.</em></p>
 </div>
+</details>
 
 </br>
 
-### 5. Create and Run a Python File in VS Code
+<details>
+<summary>
+<h3 style="display: inline; border-bottom: none;">5. Create and Run a Python File in VS Code</h3>
+</summary>
+
+</br>
 
 - Create a new folder for your project on your computer (e.g., `HelloWorldProject`).
 
@@ -197,9 +228,16 @@ Before coming in to the workshop please complete the following steps.
    ```
    Hello, World!
    ```
+</details>
+
 </br>
 
-### 6. Verify Your Setup
+<details>
+<summary>
+<h3 style="display: inline; border-bottom: none;">6. Verify Your Setup</h3>
+</summary>
+
+</br>
 
 - Confirm that:
    - VS Code is installed and working.
@@ -210,10 +248,16 @@ Before coming in to the workshop please complete the following steps.
 - Celebrate! 🎉 You’ve set up your environment and run your first Python program in VS Code!
 - You may feels as though this was simple, but we are just getting to the good part!
    - Attend the workshop session to write your first Convolutional Neural Network!
+</details>
 
 </br>
 
-### 7. Set Up a Python Virtual Environment (Highly Recommended)
+<details>
+<summary>
+<h3 style="display: inline; border-bottom: none;">7. Set Up a Python Virtual Environment (Highly Recommended)</h3>
+</summary>
+
+</br>
 
 A virtual environment helps isolate your Python projects, ensuring that dependencies for one project don’t conflict with others. This is especially useful when working with machine learning libraries that may have version-specific requirements.
 
@@ -269,8 +313,16 @@ A virtual environment helps isolate your Python projects, ensuring that dependen
 > ```bash
 > deactivate
 > ```
+</details>
 
-### 8. Install Git and Set Up a Repository (Recommended)
+</br>
+
+<details>
+<summary>
+<h3 style="display: inline; border-bottom: none;">8. Install Git and Set Up a Repository (Recommended)</h3>
+</summary>
+
+</br>
 
 Version control is a key skill for any developer. Git allows you to track changes, collaborate effectively, and revert to previous versions of your code when needed.
 
@@ -332,6 +384,9 @@ Version control is a key skill for any developer. Git allows you to track change
      ```
 
 > **Tip**: Git is essential for collaborating on projects and keeping a reliable history of your work. Your best bet to become skillful at Git is practice and some tutorial videos on YouTube.
+</details>
+
+</br>
 
 </details>
 
