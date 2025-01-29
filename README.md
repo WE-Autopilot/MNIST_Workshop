@@ -237,44 +237,34 @@ A virtual environment helps isolate your Python projects, ensuring that dependen
 
 #### Windows
 
-1. **Install `virtualenv`**:
-   ```ps
-   pip install virtualenv
-   ```
-
-2. **Create a virtual environment**:
+1. **Create a virtual environment**:
    Navigate to your project folder, then in the terminal or command prompt and run:
    ```ps
-   virtualenv venv
+   python -m venv .venv
    ```
 
-3. **Activate the virtual environment**:
+2. **Activate the virtual environment**:
    ```ps
-   .\venv\Scripts\activate
+   .venv/Scripts/activate
    ```
 
-4. **Verify activation**:
+3. **Verify activation**:
    You should see `(venv)` at the beginning of your terminal prompt, indicating the environment is active.
 
 #### MacOS/Linux
 
-1. **Install `virtualenv`**:
-   ```bash
-   pip3 install virtualenv
-   ```
-
-2. **Create a virtual environment**:
+1. **Create a virtual environment**:
    Navigate to your project folder in the terminal and run:
    ```bash
-   virtualenv venv
+   python -m venv .venv
    ```
 
-3. **Activate the virtual environment**:
+2. **Activate the virtual environment**:
    ```bash
-   source venv/bin/activate
+   source .venv/bin/activate
    ```
 
-4. **Verify activation**:
+3. **Verify activation**:
    You should see `(venv)` at the beginning of your terminal prompt, indicating the environment is active.
 
 #### Why Virtual Environments?
