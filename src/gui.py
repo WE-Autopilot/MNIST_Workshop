@@ -25,7 +25,7 @@ MINIMUM_VIABLE_MODEL_ACCURACY = 0.8     # default 0.8 (80%)
 TEST_BATCH_SIZE = 1000                  # default 1000
 
 # where to read the model .pt file from
-MODEL_PATH = '../../mnist_cnn.pt'   # default ../../mnist_cnn.pt
+MODEL_PATH = '../mnist_cnn.pt'   # default ../../mnist_cnn.pt
 # END CONFIG
 
 def get_scaling_factor():
@@ -134,7 +134,7 @@ if __name__ == "__main__":
     # we'll test it and ensure a high enough accuracy
     # load the test dataset
     test_kwargs = {'batch_size': TEST_BATCH_SIZE}
-    test_data = datasets.MNIST('../../data', train=False, transform=normalization_transform)
+    test_data = datasets.MNIST('../data', train=False, transform=normalization_transform)
     test_loader = torch.utils.data.DataLoader(test_data, **test_kwargs)
 
     # run the test
