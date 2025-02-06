@@ -1,14 +1,8 @@
-# MNIST Workshop
+# MNIST Handwritten Digit Classifier Workshop 🧠✍️
 
-<div align="center">
+This repository will be used to store our trained MNIST model. It will be trained using PyTorch and the MNIST dataset, and will be the basis of the code gone over at the WEAP MNIST Workshop on January 30th 2025.
 
-| 📅 Date       | 📍 Location | 🕠 Time         |
-|:------------:|:-----------:|:---------------:|
-| January 30th |  ACEB 1450   | 5:30PM - 9:30PM |
-
-</div>
-
-#
+This repository contains an **MNIST digit classification model**, guiding you through **building a Convolutional Neural Network (CNN)** using PyTorch. The model learns to recognize **handwritten digits (0-9)** by training on thousands of labeled examples.
 
 </br>
 
@@ -72,14 +66,27 @@ How to setup your environment
 
 <div align="center">
 
-Before coming in to the workshop please complete the following steps.
-
-</div>
-
 ***Note: Windows and MacOS are very similar, thus only key differences are highlighted. If you need help with any part of this setup, be sure to join the Discord here:***
 
-<div align="center">
-    <a href="https://discord.gg/HuJCHCSVB2">Discord Link</a>
+## 🚀 Features
+**End-to-End Machine Learning Pipeline**: Data preprocessing, model training, and evaluation.<br>
+**Deep Learning with CNNs**: Utilizes convolutional layers for accurate pattern recognition.<br>
+**Interactive GUI**: A Tkinter-based interface to draw and classify digits.<br>
+**Model Persistence**: Save and load trained models (`.pt` format).<br>
+**Visualization Tools**: Includes loss/accuracy curves and a confusion matrix.<br>
+
+## **We are using the following libraries:**
+PyTorch<br>
+Tochvision<br>
+Seaborn<br>
+Numpy<br>
+MatPlotLib (MPL)<br>
+Tkinter<br>
+Pillow (PIL)<br>
+
+
+Before coming in to the workshop please complete the following steps.
+
 </div>
 
 </br>
@@ -400,6 +407,23 @@ FAQ (Frequently Asked Questions)
 </details>
 
 </br>
+
+
+## Instructions to run the code we provided:
+
+When you clone the repository, make sure **to set up the environment as shown above**, and then change directories to the **src** folder and then run the **train.py** file. After the training file is done compiling and running, run **gui.py** to test your model!
+```
+cd .\src\
+python .\train.py
+python .\gui.py
+``` 
+
+## Machine Learning & PyTorch Resources 
+**(we highly recommend the bolded links)**
+- **[3Blue 1 Brown Neural Network Course](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)** 
+- [You don't understand AI until you watch this](https://www.youtube.com/watch?v=1aM1KYvl4Dw)
+- [PyTorch in 100 seconds](https://www.youtube.com/watch?v=ORMx45xqWkA)
+- [Training a Classifier in PyTorch](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
 
 #
 
